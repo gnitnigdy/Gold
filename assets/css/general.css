@@ -23,7 +23,7 @@ body {
 
 #mainNavbar {
   background-color: #f1f3ff;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   line-height: 2;
 }
 
@@ -51,7 +51,35 @@ body {
   font-weight: 400;
 }
 /* End of Navbar Section */
-
+/* Start of Hero Section */
+#hero-section {
+  background-color: #f1f3ff;
+}
+.hero-title {
+  font-weight: 700;
+  line-height: 5.4rem;
+  font-size: 6rem;
+}
+.hero-subtitle {
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+#hero-button {
+  width: 18rem;
+  height: 4.8rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 0.8rem 1.2rem;
+  background-color: #5cb85f;
+}
+.hero-img {
+  min-width: 100%;
+}
+#hero-text {
+  padding-left: 8rem !important;
+}
+/* End of Hero Section */
 /* media queries */
 @media only screen and (max-width: 768px) {
   .offcanvas-body .navbar-nav .nav-item:first-child {
@@ -63,5 +91,13 @@ body {
   .custom-navbar-margin {
     margin-left: 1.5rem !important;
     margin-right: 1.5rem !important;
+  }
+  #hero-text {
+    padding-left: 1.6rem !important;
+  }
+  .hero-title {
+    font-weight: 700;
+    line-height: 5.4rem;
+    font-size: 4.4rem;
   }
 }
