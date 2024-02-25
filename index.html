@@ -3,7 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/general.css" />
     <title>Gold Challenge - Binar Car Rental</title>
   </head>
-  <body></body>
+  <body>
+    <!-- start of nav section -->
+    <nav class="navbar navbar-expand-md py-4" id="mainNavbar">
+      <div class="container-fluid custom-navbar-margin">
+        <a class="navbar-brand" id="bcrNavbarBrand" href="#"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title ps-3 mt-4" id="offcanvasNavbarLabel">
+              BCR
+            </h5>
+            <button
+              type="button"
+              class="btn-close me-3"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul
+              class="navbar-nav justify-content-end flex-grow-1 pe-3 align-items-md-center"
+            >
+              <li class="nav-item mx-3">
+                <a class="nav-link" aria-current="page" href="#"
+                  >Our Services</a
+                >
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Why Us</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">Testimony</a>
+              </li>
+              <li class="nav-item mx-3">
+                <a class="nav-link" href="#">FAQ</a>
+              </li>
+              <li class="nav-item mx-3">
+                <button
+                  class="btn btn-success btn-nav-custom"
+                  style="width: 100%"
+                >
+                  Register
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- end of nav section -->
+  </body>
 </html>
